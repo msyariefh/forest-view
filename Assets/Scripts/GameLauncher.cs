@@ -11,6 +11,10 @@ public class GameLauncher : MonoBehaviour
         {
             AudioManager.Instance.PlayBgm();
         }
+        else
+        {
+            AudioManager.Instance.UnloadUnusedAssets();
+        }
     }
 
     
